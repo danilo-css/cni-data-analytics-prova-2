@@ -1,0 +1,5 @@
+Quando os dados necessários não estão disponíveis através de uma API, é necessario fazer um procedimento de "web scraping", ou "raspagem de dados", que pode ser feito através de duas formas principais dependendo da complexidade da página da web.
+
+Quando a página é estática, é possível usar o pacote beautifulsoup4 (https://pypi.org/project/beautifulsoup4/) do Python para extrair dados da árvore de elementos HTML.
+
+Contudo, quando a página é dinâmica, como o site de series históricas da CNI, construído em Java (http://www6.sistemaindustria.org.br/gpc/externo/estatisticaAcessoSistemaExterno.faces), é necessário usar um pacote como o Selenium (https://pypi.org/project/selenium/) para a emulação da interação com o navegador da web por meio de código Python.
